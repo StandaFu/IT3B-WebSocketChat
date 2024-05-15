@@ -18,7 +18,7 @@ namespace IT3B_Chat.Server
  {
   public MainWindow()
   {
-   InitializeComponent();
+     InitializeComponent();
   }
         private void Quit_Click(object sender, RoutedEventArgs e)
         {
