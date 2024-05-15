@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IT3B_Chat.Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="450" Width="800" Background="Black">
+    <Grid Background="#FF001AAB">
+        <TextBlock HorizontalAlignment="Center" Height="58" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" TextAlignment="Center" FontSize="36" FontFamily="Adobe Heiti Std R" Foreground="White"><Run Text="Logi"/><Run Language="cs-cz" Text="n"/><LineBreak/><Run Language="cs-cz"/></TextBlock>
     </Grid>
 </Window>
