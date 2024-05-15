@@ -20,5 +20,9 @@ namespace IT3B_Chat.Server
   {
    InitializeComponent();
   }
- }
+        private void Quit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+    }
 }

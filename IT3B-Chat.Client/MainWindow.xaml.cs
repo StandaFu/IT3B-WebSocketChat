@@ -16,14 +16,10 @@ namespace IT3B_Chat.Client
  /// </summary>
  public partial class MainWindow : Window
  {
-  public MainWindow()
-  {
-   InitializeComponent();
-  }
-
-        private void Quit_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
+    public MainWindow()
+    {
+        InitializeComponent();
+    }
+    
     }
 }
