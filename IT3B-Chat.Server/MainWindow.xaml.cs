@@ -24,5 +24,12 @@ namespace IT3B_Chat.Server
         {
             Close();
         }
+
+        private void pokracovat_Click(object sender, RoutedEventArgs e)
+        {
+            KerasillBook kerasillBook = new KerasillBook();
+            kerasillBook.Show();
+            Close();
+        }
     }
 }
