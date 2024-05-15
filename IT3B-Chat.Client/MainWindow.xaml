@@ -6,10 +6,15 @@
         xmlns:local="clr-namespace:IT3B_Chat.Client"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="Black">
-    <Grid Background="#FF001AAB">
-        <TextBlock HorizontalAlignment="Center" Height="51" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" TextAlignment="Center" FontSize="48" FontFamily="Bank Gothic Md AT" Foreground="White"><Run Text="Logi"/><Run Language="cs-cz" Text="n"/><LineBreak/><Run Language="cs-cz"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="36" Margin="100,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White"><Run Text="Name"/><Run Language="cs-cz" Text=":"/><LineBreak/><Run/></TextBlock>
-        <Button Content="" HorizontalAlignment="Center" Margin="0,355,0,0" Width="112" Background="{x:Null}" BorderBrush="Black" Height="39" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Center" Height="33" Margin="0,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White"><Run Language="cs-cz" Text="quit"/></TextBlock>
+    <Grid HorizontalAlignment="Center" Width="800" Height="434" VerticalAlignment="Center">
+        <Grid Background="#FF001AAB">
+            <TextBlock HorizontalAlignment="Center" Height="51" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" TextAlignment="Center" FontSize="48" FontFamily="Bank Gothic Md AT" Foreground="White"><Run Text="Logi"/><Run Language="cs-cz" Text="n"/><LineBreak/><Run Language="cs-cz"/></TextBlock>
+            <TextBlock HorizontalAlignment="Left" Height="32" Margin="100,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White"><Run Text="Name"/><Run Language="cs-cz" Text=":"/><LineBreak/><Run/></TextBlock>
+            <Button Content="Quit" HorizontalAlignment="Center" Margin="0,355,0,0" Width="112" Background="#FF0079FF" BorderBrush="Black" Height="39" VerticalAlignment="Top" Click="Quit_Click" FontFamily="Bank Gothic Md AT" FontSize="24"/>
+            <Button Content="Continue" HorizontalAlignment="Center" Margin="0,302,0,0" Width="181" Background="#FF0079FF" BorderBrush="Black" Height="39" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24"/>
+            <TextBox Height="30" Margin="0,101,100,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="32" Margin="100,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White"><Run Text="Name"/><Run Language="cs-cz" Text=":"/><LineBreak/><Run/></TextBlock>
+            <TextBox Height="30" Margin="0,164,100,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
+        </Grid>
     </Grid>
 </Window>
