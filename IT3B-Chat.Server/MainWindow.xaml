@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IT3B_Chat.Server"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterOwner">
+        Title="MainWindow" Height="450" MinHeight="450" Width="800" MinWidth="800" WindowStartupLocation="CenterScreen" Background="Black">
     <Grid HorizontalAlignment="Center" Width="800" Height="434" VerticalAlignment="Center" >
         <Grid Background="#FF0C0065">
             <TextBlock HorizontalAlignment="Center" Height="51" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="289" TextAlignment="Center" FontSize="48" FontFamily="Bank Gothic Md AT" Foreground="White" TextDecorations="Underline"><Run Text="Logi"/><Run Language="cs-cz" Text="n"/><LineBreak/><Run Language="cs-cz"/></TextBlock>
             <TextBlock HorizontalAlignment="Left" Height="32" Margin="100,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White" TextDecorations="Underline"><Run Text="Name"/><Run Language="cs-cz" Text=":"/><LineBreak/><Run/></TextBlock>
-            <Button Content="Quit" HorizontalAlignment="Center" Margin="0,340,0,0" Width="112" Background="#FF0079FF" BorderBrush="Black" Height="39" VerticalAlignment="Top" Click="Quit_Click" FontFamily="Bank Gothic Md AT" FontSize="24"/>
-            <Button Content="Continue" HorizontalAlignment="Center" Margin="0,270,0,0" Width="180" Background="#FF0079FF" BorderBrush="Black" Height="39" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24"/>
-            <TextBox Height="30" Margin="0,124,100,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
+            <Button x:Name="quit" Content="Quit" HorizontalAlignment="Center" Margin="0,340,0,0" Width="112" Background="#FF0079FF" BorderBrush="Black" Height="39" VerticalAlignment="Top" Click="Quit_Click" FontFamily="Bank Gothic Md AT" FontSize="24"/>
+            <Button x:Name="pokracovat" Content="Continue" HorizontalAlignment="Center" Margin="0,270,0,0" Width="180" Background="#FF0079FF" BorderBrush="Black" Height="39" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24"/>
+            <TextBox x:Name="name" Height="30" Margin="0,124,100,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
             <TextBlock HorizontalAlignment="Left" Height="32" Margin="100,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White" TextDecorations="Underline"><Run Text="Password"/><Run Language="cs-cz" Text=":"/></TextBlock>
-            <TextBox Height="30" Margin="0,187,100,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
+            <TextBox x:Name="password" Height="30" Margin="0,187,100,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
         </Grid>
     </Grid>
 </Window>
