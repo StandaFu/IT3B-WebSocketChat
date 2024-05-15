@@ -15,7 +15,9 @@
             <TextBox x:Name="name" Height="30" Margin="0,163,100,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Right" Width="356" Background="#FF0079FF" BorderBrush="White"/>
             <TextBlock HorizontalAlignment="Left" Height="32" Margin="100,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" TextAlignment="Center" FontSize="30" FontFamily="Bank Gothic Md AT" Foreground="White" TextDecorations="Underline"><Run Text="Password"/><Run Language="cs-cz" Text=":"/></TextBlock>
             <TextBox x:Name="password" Height="30" Margin="344,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bank Gothic Md AT" FontSize="24" TextAlignment="Left" HorizontalAlignment="Left" Width="356" Background="#FF0079FF" BorderBrush="White"/>
-            <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Source="/LogoKbook.png"/>
+            <Grid HorizontalAlignment="Center" Height="140" VerticalAlignment="Top" Width="1600" Background="Black">
+                <Image HorizontalAlignment="Left" Height="120" Margin="10,0,0,0" VerticalAlignment="Center" Width="120" Source="/LogoKbook.png" RenderTransformOrigin="0.64,0.78"/>
+            </Grid>
         </Grid>
     </Grid>
 </Window>
